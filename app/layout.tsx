@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   // Základní údaje
-  title: "Pivovar Praha – ležáky, svrchně kvašená piva & speciály",
+  title: "Pivovar Moucha – craftové ležáky",
   description:
     "Vaříme tradiční ležáky, svrchně kvašená piva a unikátní speciály v srdci Prahy. Sudy plníme na počkání a provozujeme pivovarskou prodejnu.",
   keywords: [
@@ -21,17 +21,27 @@ export const metadata: Metadata = {
     "sudy na počkání",
     "craft beer",
     "tankové pivo",
+    "pivovar Moucha",
+    "Braník",
+    "Bráník",
+    "chmel",
+    "sud ležák 30l",
+    "Zelené pivo",
+    "neipa",
+    "kyseláč",
+    "apa",
+    "ipa",
   ],
-  applicationName: "Pivovar Praha",
+  applicationName: "Pivovar Moucha",
   metadataBase: new URL("https://vaspivovar.cz"),
   authors: [{ name: "Pivovar Praha", url: "https://vaspivovar.cz" }],
   publisher: "Pivovar Praha s.r.o.",
 
   // Ikony a manifest pro PWA
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.png",
+    apple: "/images/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
   themeColor: [
