@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import { motion, useAnimation } from "framer-motion";
 
-const landing: React.FC = () => {
+const Landing: React.FC = () => {
   const textControls = useAnimation();
   const [flyAnimationComplete, setFlyAnimationComplete] = useState(false);
 
@@ -219,4 +219,4 @@ const landing: React.FC = () => {
   );
 };
 
-export default landing;
+export default Landing;

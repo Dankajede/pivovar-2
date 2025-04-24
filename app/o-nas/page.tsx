@@ -102,9 +102,9 @@ export default function AboutPage() {
                 <span className="absolute bottom-0 left-0 w-full h-1 bg-red-700"></span>
               </h2>
               <p className="mb-6 text-lg">
-                „Věříme, že dobré pivo se rodí z kvalitních surovin, poctivé
+                Věříme, že dobré pivo se rodí z kvalitních surovin, poctivé
                 práce a trpělivosti. Není potřeba spěchat - dobré věci vyžadují
-                čas."
+                čas.
               </p>
               <div className="flex flex-wrap justify-center gap-8 mt-8">
                 <div className="flex flex-col items-center max-w-xs">
