@@ -1,3 +1,4 @@
+"use clientgi";
 import React, { useState } from "react";
 import Head from "next/head";
 import { motion, useAnimation } from "framer-motion";
